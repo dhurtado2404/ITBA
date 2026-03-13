@@ -9,6 +9,8 @@ from typing import List
 # Crear la aplicación FastAPI
 app = FastAPI(title="Modelo ML API", description="API para servir predicciones del modelo de MLflow")
 
+
+
 # Acá va la configuración de CORS
 from fastapi.middleware.cors import CORSMiddleware
 
